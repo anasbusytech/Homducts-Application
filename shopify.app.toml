@@ -2,7 +2,7 @@
 
 client_id = "26099fd85f70615be3961de4c40df2c0"
 name = "Notice on Thankyou Page"
-application_url = "homducts-application.vercel.app"
+application_url = "https://homducts-application.vercel.app"
 embedded = true
 
 [build]
@@ -24,4 +24,4 @@ api_version = "2026-01"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "homducts-application.vercel.app/api/auth" ]
+redirect_urls = [ "https://homducts-application.vercel.app/api/auth" ]
